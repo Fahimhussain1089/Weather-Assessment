@@ -14,33 +14,37 @@ This Android application demonstrates weather data fetching and user management 
 ## Project Structure
 app/
 ├── manifests/
-│ └── AndroidManifest.xml
+│   └── AndroidManifest.xml
 ├── kotlin+java/
-│ └── com.hussain.weatherassessmenttest/
-│ ├── Activity/
-│ │ ├── LoginActivity.kt
-│ │ ├── MainActivity.kt
-│ │ ├── OnboardingActivity.kt
-│ │ ├── UserFormActivity.kt
-│ │ ├── UserListActivity.kt
-│ │ └── WeatherActivity.kt
-│ ├── Adapter/
-│ │ └── UserAdapter.kt
-│ ├── data/
-│ │ ├── AppDatabase.kt
-│ │ ├── User.kt
-│ │ ├── UserDao.kt
-│ │ └── WeatherData.kt
-│ ├── network/
-│ │ ├── ApiClient.kt
-│ │ └── WeatherApiService.kt
-│ ├── repository/
-│ │ ├── UserRepository.kt
-│ │ └── WeatherRepository.kt
-│ └── viewmodel/
-│ ├── UserViewModel.kt
-│ └── WeatherViewModel.kt
-
+│   └── com.hussain.weatherassessmenttest/
+│       ├── Activity/
+│       │   ├── LoginActivity.kt
+│       │   ├── MainActivity.kt
+│       │   ├── OnboardingActivity.kt
+│       │   ├── UserFormActivity.kt
+│       │   ├── UserListActivity.kt
+│       │   └── WeatherActivity.kt
+│       ├── Adapter/
+│       │   └── UserAdapter.kt
+│       ├── data/
+│       │   ├── AppDatabase.kt
+│       │   ├── User.kt
+│       │   ├── UserDao.kt
+│       │   └── WeatherData.kt
+│       ├── network/
+│       │   ├── ApiClient.kt
+│       │   └── WeatherApiService.kt
+│       ├── repository/
+│       │   ├── UserRepository.kt
+│       │   └── WeatherRepository.kt
+│       └── viewmodel/
+│           ├── UserViewModel.kt
+│           └── WeatherViewModel.kt
+└── res/
+    ├── drawable/
+    ├── layout/
+    ├── values/
+    └── ...
 
 ![WhatsApp Image 2025-06-25 at 14 32 29 (1)](https://github.com/user-attachments/assets/6de59dd9-89bf-45a9-a5be-b36a9bd1ab5c)
 ![WhatsApp Image 2025-06-25 at 14 32 29](https://github.com/user-attachments/assets/bea57c4c-a33d-47e6-a643-f1ba5eaeb090)
